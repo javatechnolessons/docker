@@ -1,0 +1,16 @@
+FROM alpine:3.15.0
+
+ARG JAVA_VERSION=zulu15.38.17-ca-jre15.0.6-linux_musl_x64
+ENV JAVA_HOME=/opt/${JAVA_VERSION}
+ENV PATH=${PATH}:${JAVA_HOME}/bin
+
+
+#COPY software/jre/${JAVA_VERSION}.tar.gz /opt
+# RUN tar xzvf /opt/${JAVA_VERSION}.tar.gz -C /opt && \
+#     rm -f /opt/${JAVA_VERSION}.tar.gz
+
+
+ADD software/jre/${JAVA_VERSION}.tar.gz /opt
+
+
+
