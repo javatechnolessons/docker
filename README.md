@@ -49,7 +49,7 @@ docker run --name jre15 -it --rm alpine:jre17 sh
 ### Build tomcat:10-jre17 image
 
 ```sh
-docker build -f DockerfileTomcatJRE --build-arg TOMCAT_VERSION=apache-tomcat-10.0.14 -t tomcat:10-jre17 .
+docker build -f DockerfileTomcatJRE --build-arg TOMCAT_VERSION=apache-tomcat-10.0.16 -t tomcat:10-jre17 .
 ```
 ### Run container of type tomcat:10-jre17
 ```sh
