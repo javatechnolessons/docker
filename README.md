@@ -42,9 +42,9 @@ docker run --name jre15 -it --rm alpine:jre17 sh
 ```
 
 ## Part 3 - tomcat:10-jre17
-* Tomcat 10 : https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.16/bin/apache-tomcat-10.0.16.tar.gz
 
 ### Download Tomcat binary
+* Tomcat 10 : https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.16/bin/apache-tomcat-10.0.16.tar.gz
 
 ### Build tomcat:10-jre17 image
 
